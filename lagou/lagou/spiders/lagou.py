@@ -16,7 +16,7 @@ class LagouAndroidSpider(scrapy.Spider):
 
     def start_requests(self):
         for url in self.start_urls:
-            yield SplashRequest(url, self.parse_list, args={'wait': 20})
+            yield SplashRequest(url, self.parse_list, args={'wait': 30})
 
     def parse_list(self, response):
         print('@@@start@@@')
