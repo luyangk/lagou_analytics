@@ -1,1 +1,1 @@
-docker run -p 32768:8050 scrapinghub/splash --disable-private-mode
+docker run -p 32768:8050 scrapinghub/splash --disable-private-mode --max-timeout 3600
