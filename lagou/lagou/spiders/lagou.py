@@ -8,7 +8,6 @@ import re
 import numpy as np
 import pandas as pd
 
-
 class LagouAndroidSpider(scrapy.Spider):
     name = "lagou_pos"
     allowed_domains = ["lagou.com"]
